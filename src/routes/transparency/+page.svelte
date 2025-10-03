@@ -4,7 +4,7 @@
 
 	onMount(() => {
 		const root = document.documentElement;
-		document.addEventListener('mousemove', (ev) => {
+		document.addEventListener('pointermove', (ev) => {
 			const position: [number, number] = [ev.clientX, ev.clientY];
 			root.style.setProperty('--mouse-x', position[0] + 'px');
 			root.style.setProperty('--mouse-y', position[1] - 30 + 'px');
