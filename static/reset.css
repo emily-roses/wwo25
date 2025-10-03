@@ -1,0 +1,122 @@
+/* 1. Use a more-intuitive box-sizing model */
+html {
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+/* 2. Remove default margin */
+* {
+	margin: 0;
+}
+
+body {
+	/* 3. Add accessible line-height */
+	line-height: 1.5;
+	/* 4. Improve text rendering */
+	-webkit-font-smoothing: antialiased;
+}
+
+/* 5. Improve media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+
+/* 6. Inherit fonts for form controls */
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+/* 7. Avoid text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
+
+/* 8. Improve line wrapping */
+p {
+	text-wrap: pretty;
+}
+
+/*
+  9. Create a root stacking context
+*/
+#root,
+#__next {
+	isolation: isolate;
+}
+
+/*
+  10. Font size scale
+*/
+/* Set the base font size for html element */
+html {
+	font-size: 15px;
+}
+
+hr {
+	border-width: 1px;
+}
+
+blockquote {
+	padding-left: 8px;
+	border-left-width: 1px;
+}
+
+p,
+dl,
+ol,
+ul {
+	font-size: 1.4rem;
+	line-height: 2rem;
+}
+
+h1 {
+	font-weight: 400;
+	font-size: 3.2rem;
+	line-height: 1;
+}
+
+h2 {
+	font-weight: 400;
+	font-size: 2.2rem;
+	line-height: 1;
+}
+
+h3 {
+	font-weight: 400;
+	font-size: 1.7rem;
+	line-height: 1;
+}
+h4 {
+	font-size: 1.6rem;
+}
+h5 {
+	font-size: 1.5rem;
+}
+h6 {
+	font-size: 1.4rem;
+}
+
+@media (prefers-reduced-motion) {
+	* {
+		transition: none;
+	}
+}
