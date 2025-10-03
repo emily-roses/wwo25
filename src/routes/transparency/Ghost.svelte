@@ -14,7 +14,7 @@
 		}
 	};
 
-	const yPos = Math.random() * 85 + 'vh';
+	const yPos = Math.random() * 70 + 'vh';
 	const delay = Math.random() * 15 - 10 + 's';
 
 	const moveSpeed = Math.random() * 30 + 15 + 's';

@@ -38,6 +38,7 @@
 	:root {
 		--mouse-x: 0;
 		--mouse-y: 0;
+		overflow: hidden;
 	}
 	main {
 		background-color: #37474f;
