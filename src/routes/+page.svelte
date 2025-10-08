@@ -59,10 +59,16 @@
 </ol>
 
 <style>
+	hgroup {
+		margin: 1rem;
+	}
+	h3 {
+		margin: 0 1rem;
+	}
 	ol {
 		display: flex;
 		flex-direction: column;
 		flex-wrap: wrap;
-		max-height: 80vh;
+		max-height: 70vh;
 	}
 </style>

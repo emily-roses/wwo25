@@ -26,7 +26,7 @@
 	<link rel="prefetch" href="/transparency/ghost_spotted.png" />
 	<link rel="prefetch" href="/transparency/ghost_dead.png" />
 	<div class="score">
-		<span class="busted">{numBusted}</span>/<span class="total">{total}</span>
+		<span class="numBusted">{numBusted}</span>/<span class="total">{total}</span>
 	</div>
 	{#each { length: total }, index}
 		<Ghost {index} onBust={handleBust} />
@@ -67,9 +67,11 @@
 	.busted {
 		background-size: cover;
 		background-position: center;
+		background-repeat: no-repeat;
 	}
 	.busted {
 		background-image: url(/transparency/ghosts_busted.png);
+		background-size: auto 110vw;
 	}
 	.score {
 		position: absolute;
