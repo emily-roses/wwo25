@@ -53,12 +53,8 @@
 	.overlay {
 		height: 100%;
 		width: 100%;
-		mask: radial-gradient(
-				circle at var(--mouse-x) var(--mouse-y),
-				rgba(110, 11, 11, 0) 0%,
-				rgba(0, 0, 0, 1) 10%
-			)
-			left top no-repeat;
+		mask: radial-gradient(circle at var(--mouse-x) var(--mouse-y), rgba(110, 11, 11, 0) 0%, rgba(0, 0, 0, 1) 10%) left
+			top no-repeat;
 		background: black;
 		pointer-events: none;
 	}

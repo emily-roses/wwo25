@@ -7,7 +7,7 @@
 		{ name: 'remix', active: false },
 		{ name: 'solids', active: false },
 		{ name: 'sub-optimal', active: false },
-		{ name: 'containers', active: false },
+		{ name: 'containers', active: true },
 		{ name: 'blink', active: false },
 		{ name: 'warning', active: false },
 		{ name: 'camera', active: false },
@@ -33,8 +33,7 @@
 		{ name: 'spooky', active: false }
 	];
 
-	export const capitalize = (s: string) =>
-		(s && String(s[0]).toUpperCase() + String(s).slice(1)) || '';
+	export const capitalize = (s: string) => (s && String(s[0]).toUpperCase() + String(s).slice(1)) || '';
 </script>
 
 <svelte:head><title>Weird Web October 2025</title></svelte:head>
